@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shivansh Vishwakarma - Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="portfolio.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Shivansh Vishwakarma</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Shivansh Vishwakarma</h1>
+            <p>AI & Machine Learning Engineer</p>
+            <p>Building intelligent solutions with cutting-edge AI technologies</p>
+            <a href="#contact" class="cta-button">Get In Touch</a>
+        </div>
+        <!-- Floating particles will be added by JS -->
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about fade-in">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <div>
+                <div style="width: 300px; height: 300px; border-radius: 50%; background: linear-gradient(135deg, #667eea, #764ba2); display: flex; align-items: center; justify-content: center; color: #fff; font-size: 100px; margin: auto;">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+            <div class="about-text">
+                <p>Hello! I'm Shivansh Vishwakarma, a passionate AI and Machine Learning Engineer with extensive experience in developing intelligent systems and data-driven solutions. I specialize in designing, implementing, and deploying machine learning models for a variety of real-world applications.</p>
+                <br>
+                <p>My journey in AI began with a fascination for data and algorithms, evolving into a career dedicated to pushing the boundaries of artificial intelligence. I thrive on building models that solve complex challenges and create value for businesses and communities.</p>
+                <br>
+                <p>When I'm not working on AI projects, you can find me exploring new ML frameworks, contributing to research, or mentoring aspiring data scientists in the community.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills fade-in">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card" data-skill="90">
+                <div class="skill-icon"><i class="fab fa-python"></i></div>
+                <h3>Python</h3>
+                <p>NumPy, Pandas, TensorFlow, PyTorch</p>
+                <div class="skill-progress">
+                    <div class="skill-progress-bar"></div>
+                </div>
+            </div>
+            <div class="skill-card" data-skill="85">
+                <div class="skill-icon"><i class="fas fa-brain"></i></div>
+                <h3>Machine Learning</h3>
+                <p>Supervised/Unsupervised Learning, NLP</p>
+                <div class="skill-progress">
+                    <div class="skill-progress-bar"></div>
+                </div>
+            </div>
+            <div class="skill-card" data-skill="80">
+                <div class="skill-icon"><i class="fas fa-network-wired"></i></div>
+                <h3>Deep Learning</h3>
+                <p>CNNs, RNNs, GANs</p>
+                <div class="skill-progress">
+                    <div class="skill-progress-bar"></div>
+                </div>
+            </div>
+            <div class="skill-card" data-skill="88">
+                <div class="skill-icon"><i class="fas fa-database"></i></div>
+                <h3>Data Science</h3>
+                <p>Data Wrangling, Visualization, SQL</p>
+                <div class="skill-progress">
+                    <div class="skill-progress-bar"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects fade-in">
+        <h2>Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <div class="project-content">
+                    <div class="project-title">Sentiment Analysis Model</div>
+                    <div class="project-description">A natural language processing model for real-time sentiment analysis on social media data, achieving high accuracy.</div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">NLP</span>
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">Flask</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-image"></i>
+                </div>
+                <div class="project-content">
+                    <div class="project-title">Image Recognition System</div>
+                    <div class="project-description">A deep learning-based image recognition system using CNNs for object detection and classification.</div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">PyTorch</span>
+                        <span class="tech-tag">OpenCV</span>
+                        <span class="tech-tag">AWS</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <i class="fas fa-chart-bar"></i>
+                </div>
+                <div class="project-content">
+                    <div class="project-title">Predictive Analytics Dashboard</div>
+                    <div class="project-description">A dashboard for predictive analytics, leveraging machine learning to forecast business trends.</div>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">Dash</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact fade-in">
+        <h2>Get In Touch</h2>
+        <div class="contact-content">
+            <p>I'm always interested in hearing about new opportunities and exciting AI projects. Let's create something intelligent together!</p>
+            <p>Email: <a href="mailto:vishwakarmashivansh887@gmail.com">vishwakarmashivansh887@gmail.com</a></p>
+            <p>Phone: <a href="tel:+919721245475">+91 9721245475</a></p>
+            
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="cta-button" style="justify-self: center; width: fit-content;">Send Message</button>
+            </form>
+
+            <div class="social-links">
+                <!-- Replace # with your actual social profile URLs -->
+                <a href="#" class="social-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="#" class="social-link" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                <a href="#" class="social-link" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                <a href="mailto:vishwakarmashivansh887@gmail.com" class="social-link" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <script src="portfolio.js"></script>
+</body>
+</html>
